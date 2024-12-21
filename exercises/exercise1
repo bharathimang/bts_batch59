@@ -1,0 +1,12 @@
+public class Testing {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.edge.driver", 
+				"C:\\Users\\bhara\\BTS\\Trainings\\Batch59\\EdgeDriver\\edgedriver_win64\\msedgedriver.exe");
+		WebDriver driver=new EdgeDriver();		
+		driver.get("https://automationexercise.com/signup");	
+		driver.manage().window().maximize();
+
+	}
+
+}
